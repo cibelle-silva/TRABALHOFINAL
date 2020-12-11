@@ -1,0 +1,140 @@
+body, ul, li, p{
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  font-size: 1.2em;
+  font-family: arial;
+  color: white;
+}
+.textin p{
+  font-size: 21px;
+  text-align: justify;
+  margin: 21px;
+}
+p{
+  font-size: 21px;
+  text-align: center;
+  margin: 21px;
+}
+.eu img{
+  display: block;
+  margin-left: 250px;
+}
+.fami img{
+  display: block;
+  margin-left: 224px;
+}
+.cbrsx img{
+  display: block;
+  margin-left: 225px;
+}
+.sla img{
+  display: block;
+  margin-left: 210px;
+}
+.num img{
+  display: block;
+  margin-left: 100px;
+}
+h2{
+  text-align: center;
+  font-size: 35px;
+  padding-top: 24px;
+}
+.boxi img{
+  display: block;
+  margin-left: 224px;
+}
+body{
+  background-image: url("img2/fundoproj.jpeg");
+  background-repeat:no-repeat;
+  background-position: top;
+  background-size: 100%;
+  background-attachment: fixed;
+}
+body{
+  margin-bottom: 100px;
+}
+figcaption{
+  color: white;
+  font-weight: bold;
+  text-align: justify;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 28px;
+}
+.logo img{
+  height: 90px;
+  width: 100px;
+  margin: 20px;
+  border-radius: 35px;
+}
+
+.header{
+  background: black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.menu{
+ display: flex;
+
+}
+.menu li{
+  margin-left: 10px;
+
+}
+.menu li a{
+  display: block;
+  padding: 10px;
+}
+main{
+  width: 70%;
+  background: black;
+}
+main {
+  position: relative;
+  left: 15%;
+  float: left;
+  margin: 20px;
+  padding-bottom: 20px;
+}
+footer{
+  clear:both;
+  height: 200px;
+  padding: 10px;
+  position:relative;
+  top: 100px;
+  background-color: black;
+}
+.circle-icons {
+  padding: 10px;
+  font-size: 18px;
+  width: 18px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 60%;
+  background: #f0e9e9;
+  color: black;
+
+}
+.circle-icons:hover {
+    background: #ccc;
+    color: #fff;
+    opacity: 0.7;
+}
+.icones{
+   text-align:right;
+    position: absolute;
+    height: 100px;
+    right: 95px;
+    top:95px;
+}
+.logo{
+  color: black;
+}

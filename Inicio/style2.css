@@ -1,0 +1,76 @@
+body, ul, li, p{
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  font-size: 1em;
+  font-family: fantasy;
+}
+body{
+  background-image: url("img/fundo.jpeg");
+  background-repeat:no-repeat;
+  background-position: top;
+  background-size: 100%;
+  background-attachment: fixed;
+
+}
+body{
+  margin-bottom: 100px;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 34px;
+}
+.nome{
+  font-size: 3em;
+}
+
+body{
+  margin-bottom: 100px;
+}
+.header{
+  background: pink;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.menu{
+ display: flex;
+
+}
+.menu li{
+  margin-left: 10px;
+
+}
+.menu li a{
+  display: block;
+  padding: 10px;
+}
+
+h1{
+  color: black;
+  text-align: center;
+}
+.texto{
+  color: black;
+  text-align: justify;
+
+}
+footer{
+  clear:both;
+  height: 200px;
+  padding: 10px;
+  position:relative;
+  top: 100px;
+  background-color: pink;
+}
+.footer {
+    text-align: right;
+    position: absolute;
+    height: 100px;
+    right: 90px;
+    top:95px;
+
+  }

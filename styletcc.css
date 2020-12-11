@@ -1,0 +1,128 @@
+body, ul, li, p{
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  font-size: 1.2em;
+  font-family: arial;
+  color:#6495ED;
+}
+body{
+  background-image: url("img2/fundotcc.jpeg");
+  background-repeat:no-repeat;
+  background-position: top;
+  background-size: 100%;
+  background-attachment: fixed;
+}
+h1{
+  font-size: 38px;
+  text-align: center;
+}
+h2{
+  font-size: 33px;
+  text-align: center;
+}
+.imgtcc img{
+  display: block;
+  margin-left: 154px;
+
+}
+p{
+  text-align: justify;
+  font-size: 1.1em;
+  margin: 30px;
+}
+body{
+  margin-bottom: 100px;
+}
+a {
+  text-decoration: none;
+  color: #6495ED;
+}
+.logo img{
+  height:90px;
+  width:100px;
+  border-radius: 35px;
+  margin-left: 20px;
+}
+.header{
+  background: black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.menu{
+ display: flex;
+
+}
+.menu li{
+  margin-left: 10px;
+
+}
+.menu li a{
+  display: block;
+  padding: 10px;
+}
+main{
+  width: 70%;
+  background: black;
+}
+main {
+  position: relative;
+  left: 15%;
+  float: left;
+  margin: 20px;
+  padding-bottom: 20px;
+}
+.flex{
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.flex > div{
+  flex:1 1 200px;
+  margin: 10px;
+}
+footer{
+  clear:both;
+  height: 200px;
+  padding: 10px;
+  position:relative;
+  top: 100px;
+  background-color: black;
+}
+figcaption{
+  color: white;
+  font-weight: bold;
+  margin-left: 20px;
+  text-align: justify;
+}
+.circle-icons {
+  padding: 10px;
+  font-size: 18px;
+  width: 18px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+  background: #f0e9e9;
+  color: black;
+
+}
+.circle-icons:hover {
+    background: #ccc;
+    color: #fff;
+    opacity: 0.7;
+}
+.icones{
+   text-align:right;
+    position: absolute;
+    height: 100px;
+    right: 95px;
+    top:95px;
+}
+.logo{
+  color: black;
+}
